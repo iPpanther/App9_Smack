@@ -32,6 +32,9 @@
 		D291563B224C97DA00B3378E /* AddChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D291563A224C97DA00B3378E /* AddChannelVC.swift */; };
 		D291563D224C97E900B3378E /* AddChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D291563C224C97E900B3378E /* AddChannelVC.xib */; };
 		D291563F224C9BE400B3378E /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D291563E224C9BE400B3378E /* SocketService.swift */; };
+		D2915641224CC5C200B3378E /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2915640224CC5C200B3378E /* Message.swift */; };
+		D2915643224CCC7500B3378E /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2915642224CCC7500B3378E /* KeyboardBoundView.swift */; };
+		D2915645224CD55300B3378E /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2915644224CD55300B3378E /* MessageCell.swift */; };
 		D2C21D99224A485600CF1B01 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C21D98224A485600CF1B01 /* AuthService.swift */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +69,9 @@
 		D291563A224C97DA00B3378E /* AddChannelVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddChannelVC.swift; sourceTree = "<group>"; };
 		D291563C224C97E900B3378E /* AddChannelVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddChannelVC.xib; sourceTree = "<group>"; };
 		D291563E224C9BE400B3378E /* SocketService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
+		D2915640224CC5C200B3378E /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		D2915642224CCC7500B3378E /* KeyboardBoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardBoundView.swift; sourceTree = "<group>"; };
+		D2915644224CD55300B3378E /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		D2C21D98224A485600CF1B01 /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		E9974D7D9D3D26C19EFF153A /* Pods-Smack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -154,6 +160,8 @@
 		D23B15772249F0E400181602 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D2915644224CD55300B3378E /* MessageCell.swift */,
+				D2915642224CCC7500B3378E /* KeyboardBoundView.swift */,
 				D2915638224C925D00B3378E /* ChannelCell.swift */,
 				D2814349224B763900DB3F25 /* CircleImage.swift */,
 				D2814347224B4FD000DB3F25 /* AvatarCell.swift */,
@@ -166,6 +174,7 @@
 		D23B15782249F0F000181602 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D2915640224CC5C200B3378E /* Message.swift */,
 				D2915634224C8DA200B3378E /* Channel.swift */,
 			);
 			path = Model;
@@ -328,12 +337,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2915643224CCC7500B3378E /* KeyboardBoundView.swift in Sources */,
 				D291563F224C9BE400B3378E /* SocketService.swift in Sources */,
 				D281434D224B826B00DB3F25 /* ProfileVC.swift in Sources */,
 				D2915639224C925D00B3378E /* ChannelCell.swift in Sources */,
 				D2915635224C8DA200B3378E /* Channel.swift in Sources */,
 				D23B157C2249F18B00181602 /* ChannelVC.swift in Sources */,
+				D2915645224CD55300B3378E /* MessageCell.swift in Sources */,
 				D2814346224B4E1C00DB3F25 /* AvatarPickerVC.swift in Sources */,
+				D2915641224CC5C200B3378E /* Message.swift in Sources */,
 				D2814342224B404100DB3F25 /* RoundedButton.swift in Sources */,
 				D281434A224B763900DB3F25 /* CircleImage.swift in Sources */,
 				D2915637224C8DBD00B3378E /* MessageService.swift in Sources */,
